@@ -6,7 +6,7 @@ http://localhost:3000/users
   "password": "...."
 }
 
-2) Go to MongoDB or MongoDB Compass to change the permissionFlags to 2147483647
+2) Go to MongoDB or MongoDB Compass to change this user's permissionFlags to 2147483647
 
 3) Go back to YARC and retrieve the accessToken 
 request:  POST  http://localhost:3000/auth
