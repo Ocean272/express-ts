@@ -11,7 +11,7 @@ import permissionMiddleware from "../common/middleware/ common.permission.middle
 
 export class UsersRoutes extends CommonRoutesConfig {
     constructor(app: express.Application) {
-        super(app, 'UserRoutes');
+        super(app, 'UsersRoutes');
     }
 
     configureRoutes(): express.Application {
