@@ -57,6 +57,7 @@ routes.push(new AuthRoutes(app));
 routes.push(new UsersRoutes(app));
 
 
+export default app;
 
 // this is a simple route to make sure everything is working properly
 const runningMessage = `Server running at http://localhost:${port}`;
@@ -74,5 +75,3 @@ server.listen(port, () => {
 });
 
 
-
-export default app;
